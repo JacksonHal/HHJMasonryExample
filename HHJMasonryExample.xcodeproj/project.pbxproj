@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D6211AE1EE9055A0097AF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211AD1EE9055A0097AF9B /* main.m */; };
+		4D6211B11EE9055A0097AF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211B01EE9055A0097AF9B /* AppDelegate.m */; };
+		4D6211B71EE9055A0097AF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6211B51EE9055A0097AF9B /* Main.storyboard */; };
+		4D6211B91EE9055A0097AF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6211B81EE9055A0097AF9B /* Assets.xcassets */; };
+		4D6211BC1EE9055A0097AF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6211BA1EE9055A0097AF9B /* LaunchScreen.storyboard */; };
+		4D6211C71EE9055A0097AF9B /* HHJMasonryExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211C61EE9055A0097AF9B /* HHJMasonryExampleTests.m */; };
+		4D6211D21EE9055A0097AF9B /* HHJMasonryExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211D11EE9055A0097AF9B /* HHJMasonryExampleUITests.m */; };
+		4D6211E71EE92C430097AF9B /* RootTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211E61EE92C430097AF9B /* RootTableVC.m */; };
+		4D6211F01EE9302B0097AF9B /* Case1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211EF1EE9302B0097AF9B /* Case1VC.m */; };
+		4D6211F31EE9303B0097AF9B /* Case2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211F21EE9303B0097AF9B /* Case2VC.m */; };
+		4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211F51EE9304C0097AF9B /* Case3VC.m */; };
+		E84AEECD35B7A861F4BC3407 /* libPods-HHJMasonryExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6211C31EE9055A0097AF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6211A11EE9055A0097AF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6211A81EE9055A0097AF9B;
+			remoteInfo = HHJMasonryExample;
+		};
+		4D6211CE1EE9055A0097AF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6211A11EE9055A0097AF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6211A81EE9055A0097AF9B;
+			remoteInfo = HHJMasonryExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125DAAF94E4A6580968CF527 /* Pods-HHJMasonryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHJMasonryExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHJMasonryExample/Pods-HHJMasonryExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6211A91EE9055A0097AF9B /* HHJMasonryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHJMasonryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6211AD1EE9055A0097AF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D6211AF1EE9055A0097AF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D6211B01EE9055A0097AF9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D6211B61EE9055A0097AF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D6211B81EE9055A0097AF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D6211BB1EE9055A0097AF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D6211BD1EE9055A0097AF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6211C21EE9055A0097AF9B /* HHJMasonryExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHJMasonryExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6211C61EE9055A0097AF9B /* HHJMasonryExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJMasonryExampleTests.m; sourceTree = "<group>"; };
+		4D6211C81EE9055A0097AF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6211CD1EE9055A0097AF9B /* HHJMasonryExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHJMasonryExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6211D11EE9055A0097AF9B /* HHJMasonryExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJMasonryExampleUITests.m; sourceTree = "<group>"; };
+		4D6211D31EE9055A0097AF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6211E51EE92C430097AF9B /* RootTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableVC.h; sourceTree = "<group>"; };
+		4D6211E61EE92C430097AF9B /* RootTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableVC.m; sourceTree = "<group>"; };
+		4D6211EE1EE9302B0097AF9B /* Case1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1VC.h; sourceTree = "<group>"; };
+		4D6211EF1EE9302B0097AF9B /* Case1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1VC.m; sourceTree = "<group>"; };
+		4D6211F11EE9303B0097AF9B /* Case2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case2VC.h; sourceTree = "<group>"; };
+		4D6211F21EE9303B0097AF9B /* Case2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case2VC.m; sourceTree = "<group>"; };
+		4D6211F41EE9304C0097AF9B /* Case3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case3VC.h; sourceTree = "<group>"; };
+		4D6211F51EE9304C0097AF9B /* Case3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case3VC.m; sourceTree = "<group>"; };
+		4D6211F71EE9488A0097AF9B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHJMasonryExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A3E52A6A77BA83FC94BAAD /* Pods-HHJMasonryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHJMasonryExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHJMasonryExample/Pods-HHJMasonryExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D6211A61EE9055A0097AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84AEECD35B7A861F4BC3407 /* libPods-HHJMasonryExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6211BF1EE9055A0097AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6211CA1EE9055A0097AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A12F068DD2C67E412937E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				125DAAF94E4A6580968CF527 /* Pods-HHJMasonryExample.debug.xcconfig */,
+				B5A3E52A6A77BA83FC94BAAD /* Pods-HHJMasonryExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C3016BA46D9DF2D7940E53F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6211A01EE9055A0097AF9B = {
+			isa = PBXGroup;
+			children = (
+				4D6211AB1EE9055A0097AF9B /* HHJMasonryExample */,
+				4D6211C51EE9055A0097AF9B /* HHJMasonryExampleTests */,
+				4D6211D01EE9055A0097AF9B /* HHJMasonryExampleUITests */,
+				4D6211AA1EE9055A0097AF9B /* Products */,
+				05A12F068DD2C67E412937E1 /* Pods */,
+				1C3016BA46D9DF2D7940E53F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D6211AA1EE9055A0097AF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211A91EE9055A0097AF9B /* HHJMasonryExample.app */,
+				4D6211C21EE9055A0097AF9B /* HHJMasonryExampleTests.xctest */,
+				4D6211CD1EE9055A0097AF9B /* HHJMasonryExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6211AB1EE9055A0097AF9B /* HHJMasonryExample */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211E81EE92FFC0097AF9B /* Example */,
+				4D6211AF1EE9055A0097AF9B /* AppDelegate.h */,
+				4D6211B01EE9055A0097AF9B /* AppDelegate.m */,
+				4D6211F71EE9488A0097AF9B /* PrefixHeader.pch */,
+				4D6211B51EE9055A0097AF9B /* Main.storyboard */,
+				4D6211E51EE92C430097AF9B /* RootTableVC.h */,
+				4D6211E61EE92C430097AF9B /* RootTableVC.m */,
+				4D6211B81EE9055A0097AF9B /* Assets.xcassets */,
+				4D6211BA1EE9055A0097AF9B /* LaunchScreen.storyboard */,
+				4D6211BD1EE9055A0097AF9B /* Info.plist */,
+				4D6211AC1EE9055A0097AF9B /* Supporting Files */,
+			);
+			path = HHJMasonryExample;
+			sourceTree = "<group>";
+		};
+		4D6211AC1EE9055A0097AF9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211AD1EE9055A0097AF9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D6211C51EE9055A0097AF9B /* HHJMasonryExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211C61EE9055A0097AF9B /* HHJMasonryExampleTests.m */,
+				4D6211C81EE9055A0097AF9B /* Info.plist */,
+			);
+			path = HHJMasonryExampleTests;
+			sourceTree = "<group>";
+		};
+		4D6211D01EE9055A0097AF9B /* HHJMasonryExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211D11EE9055A0097AF9B /* HHJMasonryExampleUITests.m */,
+				4D6211D31EE9055A0097AF9B /* Info.plist */,
+			);
+			path = HHJMasonryExampleUITests;
+			sourceTree = "<group>";
+		};
+		4D6211E81EE92FFC0097AF9B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211E91EE92FFC0097AF9B /* case1 */,
+				4D6211EA1EE92FFC0097AF9B /* case2 */,
+				4D6211EB1EE92FFC0097AF9B /* case3 */,
+				4D6211EC1EE92FFC0097AF9B /* case4 */,
+				4D6211ED1EE92FFC0097AF9B /* case5 */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		4D6211E91EE92FFC0097AF9B /* case1 */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211EE1EE9302B0097AF9B /* Case1VC.h */,
+				4D6211EF1EE9302B0097AF9B /* Case1VC.m */,
+			);
+			path = case1;
+			sourceTree = "<group>";
+		};
+		4D6211EA1EE92FFC0097AF9B /* case2 */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211F11EE9303B0097AF9B /* Case2VC.h */,
+				4D6211F21EE9303B0097AF9B /* Case2VC.m */,
+			);
+			path = case2;
+			sourceTree = "<group>";
+		};
+		4D6211EB1EE92FFC0097AF9B /* case3 */ = {
+			isa = PBXGroup;
+			children = (
+				4D6211F41EE9304C0097AF9B /* Case3VC.h */,
+				4D6211F51EE9304C0097AF9B /* Case3VC.m */,
+			);
+			path = case3;
+			sourceTree = "<group>";
+		};
+		4D6211EC1EE92FFC0097AF9B /* case4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = case4;
+			sourceTree = "<group>";
+		};
+		4D6211ED1EE92FFC0097AF9B /* case5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = case5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6211A81EE9055A0097AF9B /* HHJMasonryExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6211D61EE9055A0097AF9B /* Build configuration list for PBXNativeTarget "HHJMasonryExample" */;
+			buildPhases = (
+				983F16ECDA0012F103FA116F /* [CP] Check Pods Manifest.lock */,
+				4D6211A51EE9055A0097AF9B /* Sources */,
+				4D6211A61EE9055A0097AF9B /* Frameworks */,
+				4D6211A71EE9055A0097AF9B /* Resources */,
+				3BED19012BBD9D2C9BFA9273 /* [CP] Embed Pods Frameworks */,
+				52881590818E2CB7F1381358 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHJMasonryExample;
+			productName = HHJMasonryExample;
+			productReference = 4D6211A91EE9055A0097AF9B /* HHJMasonryExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6211C11EE9055A0097AF9B /* HHJMasonryExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6211D91EE9055A0097AF9B /* Build configuration list for PBXNativeTarget "HHJMasonryExampleTests" */;
+			buildPhases = (
+				4D6211BE1EE9055A0097AF9B /* Sources */,
+				4D6211BF1EE9055A0097AF9B /* Frameworks */,
+				4D6211C01EE9055A0097AF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6211C41EE9055A0097AF9B /* PBXTargetDependency */,
+			);
+			name = HHJMasonryExampleTests;
+			productName = HHJMasonryExampleTests;
+			productReference = 4D6211C21EE9055A0097AF9B /* HHJMasonryExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D6211CC1EE9055A0097AF9B /* HHJMasonryExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6211DC1EE9055A0097AF9B /* Build configuration list for PBXNativeTarget "HHJMasonryExampleUITests" */;
+			buildPhases = (
+				4D6211C91EE9055A0097AF9B /* Sources */,
+				4D6211CA1EE9055A0097AF9B /* Frameworks */,
+				4D6211CB1EE9055A0097AF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6211CF1EE9055A0097AF9B /* PBXTargetDependency */,
+			);
+			name = HHJMasonryExampleUITests;
+			productName = HHJMasonryExampleUITests;
+			productReference = 4D6211CD1EE9055A0097AF9B /* HHJMasonryExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D6211A11EE9055A0097AF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "好杰";
+				TargetAttributes = {
+					4D6211A81EE9055A0097AF9B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GNZBVV9WD3;
+						ProvisioningStyle = Automatic;
+					};
+					4D6211C11EE9055A0097AF9B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GNZBVV9WD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D6211A81EE9055A0097AF9B;
+					};
+					4D6211CC1EE9055A0097AF9B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GNZBVV9WD3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D6211A81EE9055A0097AF9B;
+					};
+				};
+			};
+			buildConfigurationList = 4D6211A41EE9055A0097AF9B /* Build configuration list for PBXProject "HHJMasonryExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D6211A01EE9055A0097AF9B;
+			productRefGroup = 4D6211AA1EE9055A0097AF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6211A81EE9055A0097AF9B /* HHJMasonryExample */,
+				4D6211C11EE9055A0097AF9B /* HHJMasonryExampleTests */,
+				4D6211CC1EE9055A0097AF9B /* HHJMasonryExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D6211A71EE9055A0097AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6211BC1EE9055A0097AF9B /* LaunchScreen.storyboard in Resources */,
+				4D6211B91EE9055A0097AF9B /* Assets.xcassets in Resources */,
+				4D6211B71EE9055A0097AF9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6211C01EE9055A0097AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6211CB1EE9055A0097AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BED19012BBD9D2C9BFA9273 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHJMasonryExample/Pods-HHJMasonryExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52881590818E2CB7F1381358 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHJMasonryExample/Pods-HHJMasonryExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983F16ECDA0012F103FA116F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6211A51EE9055A0097AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6211B11EE9055A0097AF9B /* AppDelegate.m in Sources */,
+				4D6211E71EE92C430097AF9B /* RootTableVC.m in Sources */,
+				4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */,
+				4D6211F31EE9303B0097AF9B /* Case2VC.m in Sources */,
+				4D6211F01EE9302B0097AF9B /* Case1VC.m in Sources */,
+				4D6211AE1EE9055A0097AF9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6211BE1EE9055A0097AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6211C71EE9055A0097AF9B /* HHJMasonryExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6211C91EE9055A0097AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6211D21EE9055A0097AF9B /* HHJMasonryExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D6211C41EE9055A0097AF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6211A81EE9055A0097AF9B /* HHJMasonryExample */;
+			targetProxy = 4D6211C31EE9055A0097AF9B /* PBXContainerItemProxy */;
+		};
+		4D6211CF1EE9055A0097AF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6211A81EE9055A0097AF9B /* HHJMasonryExample */;
+			targetProxy = 4D6211CE1EE9055A0097AF9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D6211B51EE9055A0097AF9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6211B61EE9055A0097AF9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6211BA1EE9055A0097AF9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6211BB1EE9055A0097AF9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D6211D41EE9055A0097AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D6211D51EE9055A0097AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D6211D71EE9055A0097AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125DAAF94E4A6580968CF527 /* Pods-HHJMasonryExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHJMasonryExample/PrefixHeader.pch";
+				INFOPLIST_FILE = HHJMasonryExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHJ.HHJMasonryExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D6211D81EE9055A0097AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A3E52A6A77BA83FC94BAAD /* Pods-HHJMasonryExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHJMasonryExample/PrefixHeader.pch";
+				INFOPLIST_FILE = HHJMasonryExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHJ.HHJMasonryExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D6211DA1EE9055A0097AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = HHJMasonryExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHJ.HHJMasonryExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHJMasonryExample.app/HHJMasonryExample";
+			};
+			name = Debug;
+		};
+		4D6211DB1EE9055A0097AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = HHJMasonryExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHJ.HHJMasonryExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHJMasonryExample.app/HHJMasonryExample";
+			};
+			name = Release;
+		};
+		4D6211DD1EE9055A0097AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = HHJMasonryExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHJ.HHJMasonryExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHJMasonryExample;
+			};
+			name = Debug;
+		};
+		4D6211DE1EE9055A0097AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNZBVV9WD3;
+				INFOPLIST_FILE = HHJMasonryExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HHJ.HHJMasonryExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHJMasonryExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6211A41EE9055A0097AF9B /* Build configuration list for PBXProject "HHJMasonryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6211D41EE9055A0097AF9B /* Debug */,
+				4D6211D51EE9055A0097AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6211D61EE9055A0097AF9B /* Build configuration list for PBXNativeTarget "HHJMasonryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6211D71EE9055A0097AF9B /* Debug */,
+				4D6211D81EE9055A0097AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6211D91EE9055A0097AF9B /* Build configuration list for PBXNativeTarget "HHJMasonryExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6211DA1EE9055A0097AF9B /* Debug */,
+				4D6211DB1EE9055A0097AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6211DC1EE9055A0097AF9B /* Build configuration list for PBXNativeTarget "HHJMasonryExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6211DD1EE9055A0097AF9B /* Debug */,
+				4D6211DE1EE9055A0097AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D6211A11EE9055A0097AF9B /* Project object */;
+}
