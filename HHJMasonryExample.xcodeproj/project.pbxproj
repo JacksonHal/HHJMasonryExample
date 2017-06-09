@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D601D3D1EEA9D000077008D /* Case4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D601D3C1EEA9D000077008D /* Case4VC.m */; };
+		4D601D401EEAA4EF0077008D /* Case4TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D601D3F1EEAA4EF0077008D /* Case4TVCell.m */; };
+		4D601D431EEAA5140077008D /* Case4DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D601D421EEAA5140077008D /* Case4DataModel.m */; };
 		4D6211AE1EE9055A0097AF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211AD1EE9055A0097AF9B /* main.m */; };
 		4D6211B11EE9055A0097AF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211B01EE9055A0097AF9B /* AppDelegate.m */; };
 		4D6211B71EE9055A0097AF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6211B51EE9055A0097AF9B /* Main.storyboard */; };
@@ -40,6 +43,12 @@
 
 /* Begin PBXFileReference section */
 		125DAAF94E4A6580968CF527 /* Pods-HHJMasonryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHJMasonryExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHJMasonryExample/Pods-HHJMasonryExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4D601D3B1EEA9D000077008D /* Case4VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case4VC.h; sourceTree = "<group>"; };
+		4D601D3C1EEA9D000077008D /* Case4VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4VC.m; sourceTree = "<group>"; };
+		4D601D3E1EEAA4EF0077008D /* Case4TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case4TVCell.h; sourceTree = "<group>"; };
+		4D601D3F1EEAA4EF0077008D /* Case4TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4TVCell.m; sourceTree = "<group>"; };
+		4D601D411EEAA5140077008D /* Case4DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case4DataModel.h; sourceTree = "<group>"; };
+		4D601D421EEAA5140077008D /* Case4DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4DataModel.m; sourceTree = "<group>"; };
 		4D6211A91EE9055A0097AF9B /* HHJMasonryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHJMasonryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6211AD1EE9055A0097AF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D6211AF1EE9055A0097AF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -218,6 +227,12 @@
 		4D6211EC1EE92FFC0097AF9B /* case4 */ = {
 			isa = PBXGroup;
 			children = (
+				4D601D3B1EEA9D000077008D /* Case4VC.h */,
+				4D601D3C1EEA9D000077008D /* Case4VC.m */,
+				4D601D3E1EEAA4EF0077008D /* Case4TVCell.h */,
+				4D601D3F1EEAA4EF0077008D /* Case4TVCell.m */,
+				4D601D411EEAA5140077008D /* Case4DataModel.h */,
+				4D601D421EEAA5140077008D /* Case4DataModel.m */,
 			);
 			path = case4;
 			sourceTree = "<group>";
@@ -418,9 +433,12 @@
 			files = (
 				4D6211B11EE9055A0097AF9B /* AppDelegate.m in Sources */,
 				4D6211E71EE92C430097AF9B /* RootTableVC.m in Sources */,
+				4D601D401EEAA4EF0077008D /* Case4TVCell.m in Sources */,
+				4D601D3D1EEA9D000077008D /* Case4VC.m in Sources */,
 				4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */,
 				4D6211F31EE9303B0097AF9B /* Case2VC.m in Sources */,
 				4D6211F01EE9302B0097AF9B /* Case1VC.m in Sources */,
+				4D601D431EEAA5140077008D /* Case4DataModel.m in Sources */,
 				4D6211AE1EE9055A0097AF9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
