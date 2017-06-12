@@ -21,6 +21,7 @@
 		4D6211F01EE9302B0097AF9B /* Case1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211EF1EE9302B0097AF9B /* Case1VC.m */; };
 		4D6211F31EE9303B0097AF9B /* Case2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211F21EE9303B0097AF9B /* Case2VC.m */; };
 		4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211F51EE9304C0097AF9B /* Case3VC.m */; };
+		A6D54E151EEBBF0200FCB754 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D54E141EEBBF0200FCB754 /* Common.m */; };
 		E84AEECD35B7A861F4BC3407 /* libPods-HHJMasonryExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,9 @@
 		4D6211F51EE9304C0097AF9B /* Case3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case3VC.m; sourceTree = "<group>"; };
 		4D6211F71EE9488A0097AF9B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHJMasonryExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D54E121EEBAFAE00FCB754 /* UserDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefine.h; sourceTree = "<group>"; };
+		A6D54E131EEBBF0200FCB754 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A6D54E141EEBBF0200FCB754 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		B5A3E52A6A77BA83FC94BAAD /* Pods-HHJMasonryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHJMasonryExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHJMasonryExample/Pods-HHJMasonryExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +148,7 @@
 		4D6211AB1EE9055A0097AF9B /* HHJMasonryExample */ = {
 			isa = PBXGroup;
 			children = (
+				A6D54E111EEBAD7600FCB754 /* Lib */,
 				4D6211E81EE92FFC0097AF9B /* Example */,
 				4D6211AF1EE9055A0097AF9B /* AppDelegate.h */,
 				4D6211B01EE9055A0097AF9B /* AppDelegate.m */,
@@ -242,6 +247,16 @@
 			children = (
 			);
 			path = case5;
+			sourceTree = "<group>";
+		};
+		A6D54E111EEBAD7600FCB754 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A6D54E121EEBAFAE00FCB754 /* UserDefine.h */,
+				A6D54E131EEBBF0200FCB754 /* Common.h */,
+				A6D54E141EEBBF0200FCB754 /* Common.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +448,7 @@
 			files = (
 				4D6211B11EE9055A0097AF9B /* AppDelegate.m in Sources */,
 				4D6211E71EE92C430097AF9B /* RootTableVC.m in Sources */,
+				A6D54E151EEBBF0200FCB754 /* Common.m in Sources */,
 				4D601D401EEAA4EF0077008D /* Case4TVCell.m in Sources */,
 				4D601D3D1EEA9D000077008D /* Case4VC.m in Sources */,
 				4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */,

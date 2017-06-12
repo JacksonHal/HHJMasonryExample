@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class Case4DataModel;
+
 @interface Case4TVCell : UITableViewCell
+
+- (void)configDataWithModel:(Case4DataModel *)model;
 
 @end
