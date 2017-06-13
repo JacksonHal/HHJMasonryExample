@@ -21,6 +21,9 @@
 		4D6211F01EE9302B0097AF9B /* Case1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211EF1EE9302B0097AF9B /* Case1VC.m */; };
 		4D6211F31EE9303B0097AF9B /* Case2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211F21EE9303B0097AF9B /* Case2VC.m */; };
 		4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6211F51EE9304C0097AF9B /* Case3VC.m */; };
+		4DC1E4E91EEF86B700A76A1B /* Case5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E4E81EEF86B700A76A1B /* Case5VC.m */; };
+		4DC1E4ED1EEFCF8E00A76A1B /* Case6VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E4EC1EEFCF8E00A76A1B /* Case6VC.m */; };
+		4DC1E4F01EEFCFBD00A76A1B /* Case6View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E4EF1EEFCFBD00A76A1B /* Case6View.m */; };
 		A6D54E151EEBBF0200FCB754 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D54E141EEBBF0200FCB754 /* Common.m */; };
 		E84AEECD35B7A861F4BC3407 /* libPods-HHJMasonryExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */; };
 /* End PBXBuildFile section */
@@ -73,6 +76,12 @@
 		4D6211F41EE9304C0097AF9B /* Case3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case3VC.h; sourceTree = "<group>"; };
 		4D6211F51EE9304C0097AF9B /* Case3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case3VC.m; sourceTree = "<group>"; };
 		4D6211F71EE9488A0097AF9B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4DC1E4E71EEF86B700A76A1B /* Case5VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5VC.h; sourceTree = "<group>"; };
+		4DC1E4E81EEF86B700A76A1B /* Case5VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5VC.m; sourceTree = "<group>"; };
+		4DC1E4EB1EEFCF8E00A76A1B /* Case6VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6VC.h; sourceTree = "<group>"; };
+		4DC1E4EC1EEFCF8E00A76A1B /* Case6VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6VC.m; sourceTree = "<group>"; };
+		4DC1E4EE1EEFCFBD00A76A1B /* Case6View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6View.h; sourceTree = "<group>"; };
+		4DC1E4EF1EEFCFBD00A76A1B /* Case6View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6View.m; sourceTree = "<group>"; };
 		8BB88B477B514927B8269CF1 /* libPods-HHJMasonryExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHJMasonryExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D54E121EEBAFAE00FCB754 /* UserDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefine.h; sourceTree = "<group>"; };
 		A6D54E131EEBBF0200FCB754 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -198,6 +207,7 @@
 				4D6211EB1EE92FFC0097AF9B /* case3 */,
 				4D6211EC1EE92FFC0097AF9B /* case4 */,
 				4D6211ED1EE92FFC0097AF9B /* case5 */,
+				4DC1E4EA1EEFCEE900A76A1B /* case6 */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -245,8 +255,21 @@
 		4D6211ED1EE92FFC0097AF9B /* case5 */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1E4E71EEF86B700A76A1B /* Case5VC.h */,
+				4DC1E4E81EEF86B700A76A1B /* Case5VC.m */,
 			);
 			path = case5;
+			sourceTree = "<group>";
+		};
+		4DC1E4EA1EEFCEE900A76A1B /* case6 */ = {
+			isa = PBXGroup;
+			children = (
+				4DC1E4EB1EEFCF8E00A76A1B /* Case6VC.h */,
+				4DC1E4EC1EEFCF8E00A76A1B /* Case6VC.m */,
+				4DC1E4EE1EEFCFBD00A76A1B /* Case6View.h */,
+				4DC1E4EF1EEFCFBD00A76A1B /* Case6View.m */,
+			);
+			path = case6;
 			sourceTree = "<group>";
 		};
 		A6D54E111EEBAD7600FCB754 /* Lib */ = {
@@ -448,14 +471,17 @@
 			files = (
 				4D6211B11EE9055A0097AF9B /* AppDelegate.m in Sources */,
 				4D6211E71EE92C430097AF9B /* RootTableVC.m in Sources */,
+				4DC1E4E91EEF86B700A76A1B /* Case5VC.m in Sources */,
 				A6D54E151EEBBF0200FCB754 /* Common.m in Sources */,
 				4D601D401EEAA4EF0077008D /* Case4TVCell.m in Sources */,
 				4D601D3D1EEA9D000077008D /* Case4VC.m in Sources */,
 				4D6211F61EE9304C0097AF9B /* Case3VC.m in Sources */,
 				4D6211F31EE9303B0097AF9B /* Case2VC.m in Sources */,
 				4D6211F01EE9302B0097AF9B /* Case1VC.m in Sources */,
+				4DC1E4F01EEFCFBD00A76A1B /* Case6View.m in Sources */,
 				4D601D431EEAA5140077008D /* Case4DataModel.m in Sources */,
 				4D6211AE1EE9055A0097AF9B /* main.m in Sources */,
+				4DC1E4ED1EEFCF8E00A76A1B /* Case6VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
